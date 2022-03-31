@@ -1,0 +1,190 @@
+
+
+
+
+
+ :root{
+    --primary-color : #fff;
+    --price-color : #EA4F31;
+    --text-color : #737373;
+    --product-name : #222222;
+    --primary-font : 'Roboto', sans-serif;
+    --primary-font-size : 12px;
+    --secondary-font-size : 15px;
+    --medium-font-size : 20px;
+    --primary-font-weight : 300;
+    --medium-font-weight : 500;
+    --heading-font-weight : 700;
+    --product-weight : 400;
+    --transition : all 0.3s ease-in-out;
+    --input-padding : 8px 13px;
+    --label-margin : 10px 0px;
+    --mx-10 : 0px 10px;
+    
+}
+
+
+#login-head{
+    background-color: var(--primary-color);
+    padding: 30px 0px;
+}
+#login-head .logoarea img{
+    width: 150px;
+}
+#login-head .logoarea h3{
+    color: var(--product-name);
+}
+
+#login-head .login-head-area .help-area p{
+    color: var(--price-color);
+}
+
+
+
+
+#login-hero-area{
+    background-image: url(assets/login/form-bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 65vh;
+}
+#login-hero-area .login-form{
+
+    float: right;
+}
+#login-hero-area .login-form .card{
+    width: 420px;
+    height: 470px;
+    margin-top: 30px;
+
+}
+#login-hero-area .login-form .card .card-text-area{
+    margin: 40px 30px;
+}
+#login-hero-area .login-form .card h5{
+    color: var(--product-name);
+}
+
+#login-hero-area .login-form .card .scanner-area p{
+    color: #ffbf00;
+    border: 2px solid #ffbf00;
+    padding: 10px 15px;
+    font-size: var(--primary-font-size);
+    font-weight: var(--medium-font-weight);
+}
+#login-hero-area .login-form .card .scanner-area img{
+    width: 50px;
+    height: 45px;
+    margin-left: 10px;
+}
+#login-hero-area .login-form .card .input-area{
+    margin-left: 20px;
+    
+}
+#login-hero-area .login-form .card .input-area input{
+    width: 90%;
+    border: 1px solid #ddd;
+    outline: none; 
+}
+#login-hero-area .login-form .card .input-area input::placeholder{
+    color: rgb(179, 170, 170);
+    font-size: var(--primary-font-size);
+}
+
+#login-hero-area .login-form .card .login-btn a{
+    background-color: var(--price-color);
+    color: var(--primary-color);
+    display: inline-block;
+    width: 87%;
+    margin: 20px 20px;
+    text-transform: uppercase;
+}
+#login-hero-area .login-form .card .forget a{
+    color: var(--product-name);
+    font-size: var(--primary-font-size);
+    font-weight:var(--medium-font-weight);
+    margin-left: 25px;
+    margin-top: -10px;
+    display: block;
+}
+
+#login-hero-area .login-form .card .or-area{
+    color: var(--text-color);
+    text-align: center;
+}
+#login-hero-area .login-form .card .or-area p{
+    margin-left: 20px;
+    font-size: var(--primary-font-size);
+}
+#login-hero-area .login-form .card .or-area span{
+    border: 1px solid #ddd;
+    width: 145px;
+    height: 0px;
+    margin-left: 30px;
+    margin-top: 10px;
+}
+#login-hero-area .login-form .card .social-area{
+    margin-left: 20px;
+}
+#login-hero-area .login-form .card .social-area .facebook{
+    border: 1px solid var(--text-color);
+    width: 26%;
+   padding: 10px 0px;
+    margin: 0px 10px;
+}
+#login-hero-area .login-form .card .social-area span{
+    color:var(--product-name);
+    font-weight: var(--medium-font-weight);
+    font-size: var(--primary-font-size);
+  
+}
+#login-hero-area .login-form .card .social-area .facebook-img{
+    width: 20px;
+    margin-left: 10px;
+}
+#login-hero-area .login-form .card .social-area .google{
+    width: 20px;
+    margin-left: 10px;
+
+}
+#login-hero-area .login-form .card .social-area .apple-img{
+    width: 40px;
+}
+#login-hero-area .sign-up{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: var(--text-color);
+    margin-top: 5px;
+    font-size:var(--primary-font-size);
+}
+#login-hero-area .sign-up p{
+    color: var(--price-color);
+    font-weight: var(--medium-font-weight);
+    margin-top: 16px;
+    margin-left: 4px;
+}
+
+
+
+
+/* ================
+      SIGN UP 
+=================== */
+#login-hero-area .rules-text{
+    margin-left: 120px;
+    margin-top: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 282px;
+}
+#login-hero-area .rules-text span{
+    font-size: var(--primary-font-size);
+    color:var(--product-name);
+    font-weight:var(--medium-font-weight);
+}
+#login-hero-area .rules-text a{
+    color: var(--price-color);
+    font-size: var(--primary-font-size);
+}

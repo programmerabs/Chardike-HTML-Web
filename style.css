@@ -1,0 +1,1129 @@
+/* 
+    Theme Name : Charidike.com
+    Theme URL : https://www.charidike.com
+    Theme Description : This is a E-commerce website. Here you can see many kinds of products. whice product is very  necessary for our everyday life.
+    Tags : charidike.com, product name.
+    author : Nazmul Islam
+    author URL : https://www.linkedin.com/in/nazmul-islam-58709b228/
+
+
+========================================
+    STYLESHEET INDEXING
+========================================
+
+1)  Default Style
+    - Variable
+    - Reset style
+    - Typography
+    - Form style
+    - Helper classes
+2)  Elements Style
+    - Button style
+    - Section style
+    - Section head style 
+    - Breadcumb
+    - Pagination
+3)  Template Styles
+    - Header style
+    - Hero style
+    -
+    
+*/
+
+
+/*======================================= 
+1)  Default Style
+=========================================*/
+ @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap');
+
+/* =========================
+    Variable
+========================== */
+
+ :root{
+    --primary-color : #fff;
+    --price-color : #EA4F31;
+    --text-color : #737373;
+    --product-name : #222222;
+    --primary-font : 'Roboto', sans-serif;
+    --primary-font-size : 12px;
+    --secondary-font-size : 15px;
+    --medium-font-size : 20px;
+    --primary-font-weight : 300;
+    --medium-font-weight : 500;
+    --heading-font-weight : 700;
+    --product-weight : 400;
+    --transition : all 0.3s ease-in-out;
+    --input-padding : 8px 13px;
+    --label-margin : 10px 0px;
+    --mx-10 : 0px 10px;
+    
+}
+/*=========================
+    Reset style
+==========================*/
+a{
+    display: inline-block;
+    text-decoration: none;
+    transition: var(--transition);
+    
+}
+li{
+    list-style: none;
+
+}
+ span{
+    display: inline-block;
+}
+img{
+    max-width: 100%;
+    height: auto;
+    vertical-align: middle;
+}
+/*=========================
+    Typography
+==========================*/
+body{
+    font-family: var(--primary-font);
+    font-weight: var(--primary-font-weight);
+    color: var(--primary-color);
+}
+h2,
+h3,
+h4,
+h5,
+h6{
+    font-weight:var(--medium-font-weight);
+
+}
+h1{
+    font-weight: var(--heading-font-weight);
+}
+
+/*=========================
+    Form style
+==========================*/
+input{
+    padding: var(--input-padding);
+}
+label{
+    margin: var(--label-margin);
+}
+/*=========================
+    Helper classes
+==========================*/
+.py-100{
+    padding: 100px 0px;
+}
+.px-100{
+    padding: 0px 100px;
+}
+.p-100{
+    padding: 100px;
+}
+.xy-100{
+    margin: 100px 0px;
+}
+.mx-100{
+    margin: 0px 100px;
+}
+.m-100{
+    margin: 100px;
+}
+.mx-10{
+    margin: 0px 10px;
+}
+
+/*=========================
+    HEADER
+==========================*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #F5F5F5;
+}
+header{
+    background: linear-gradient(to top , #FB6739, #F24131);
+    
+}
+header a{
+    color: var(--primary-color);
+    font-size: var(--primary-font-size);
+    margin: var(--mx-10);
+}
+header .left{
+    margin-left: -30px;
+}
+
+
+header .icon a{
+    display: block;
+    margin: 5px;
+    font-size: var(--medium-font-size);
+}
+header .icon p{
+    margin-top: 10px;
+}
+header .icon a:last-child{
+    margin-left: 5px;
+}
+header p{
+    font-size: var(--primary-font-size);
+    margin: var(--mx-10);
+}
+
+header .fa-instagram{
+    margin-left: 5px;
+}
+header .left li a{
+    border-right: 1px solid #fff;
+    padding: 0px 10px;
+}
+
+
+header .nav-head ul li{
+    
+    margin-top: 5px;
+}
+header .right li .my-border{
+    border-right: 1px solid #fff;
+    padding: 0px 10px;
+}
+header a:hover{
+    color: #ddd;
+}
+header .right ul li{
+    position: relative;
+    z-index: 1;
+}
+header .sub-menu{
+    display: none;
+    z-index: 2;
+}
+header ul li:hover .sub-menu{
+    display: block;
+    position: absolute;
+    top: 100%;
+    left: -50px;
+    background-color: #fff;
+    
+  
+}
+header ul li:hover .sub-menu ul{
+    display: block;
+    margin-top: 10px;
+    
+}
+header ul li:hover .sub-menu ul li{
+    width: 100px;
+    
+}
+
+header ul li:hover .sub-menu ul li a{
+    color: var(--text-color);
+}
+header ul li:hover .sub-menu ul li .en{
+    color: var(--price-color);
+}
+
+header ul li:hover .sub-menu ul li a:hover{
+    color: var(--price-color);
+}
+header .nav-middle{
+    margin-top: -30px;
+}
+header .nav-middle .logo{
+    width: 120px;
+    margin-top: 30px;
+}
+header .nav-middle .logo img{
+    width: 100%;
+}
+header .nav-middle .search input{
+    border: none;
+    outline: none;
+    width: 780px;
+    border-radius: 5px;
+    position: relative;
+}
+header .nav-middle .search input::placeholder{
+    font-size: var(--primary-font-size);
+}
+header .nav-middle .search{
+    margin-top: 30px;
+}
+header .search .btn{
+    position: absolute;
+    background-color: var(--price-color);
+    color: var(--primary-color);
+    margin-left: -45px;
+    margin-top: 1px;
+}
+
+header .nav-middle .cart-icon{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 50px;
+}
+header .nav-middle .cart-icon .fa-cart-shopping{
+    font-size: 20px;
+}
+header .nav-middle .search ul{
+    margin-left: -40px;
+    margin-bottom:1px;
+}
+/*=========================
+    HERO
+==========================*/
+#hero {
+    background-color: var(--primary-color);
+
+    padding: 130px 15px 10px;
+}
+#hero .slider .slider-left{
+    width: 720px;
+    float: left;
+   
+}
+#hero .slider .slider-left img{
+    height: 210px;
+}
+#hero .slider .slider-right{
+    width: 320px;
+    float: left;
+    margin-left: 10px;
+}
+#hero .slider .slider-right img{
+    width: 320px;
+    height: 100px;
+}
+#hero .slider .slider-right img:first-child{
+    margin-top: -5px !important;
+
+}
+#hero .slider .slider-right img:last-child{
+    margin-top: 5px !important;
+
+}
+#hero .slider .slider-left .carousel-indicators [data-bs-target]{
+    height: 10px;
+    width: 10px;
+    border-radius: 50%;
+    background-color: #fff;
+}
+#hero .carousel-item .my-1{
+    width: 750px !important;
+}
+
+#hero .icon-area img{
+    width: 50px;
+    height: 50px;
+}
+#hero .icon-area .first{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin: 10px 10px 0px;
+
+}
+#hero .icon-area .first span{
+    font-size: var(--primary-font-size);
+    color: var(--product-name);
+    font-weight: var(--product-weight);
+    margin-top: 5px;
+}
+#hero .icon-area .first:hover{
+    transform: scale(1.1);
+}
+/*=========================
+    CLAIM
+==========================*/
+#claim{
+    margin: 20px 0px;
+}
+
+/*=========================
+    BIG-BRANDS
+==========================*/
+#big-brands{
+   
+}
+
+#big-brands .container{
+    background: #FDC32F;
+  
+}
+#big-brands .brands-title{
+    padding: 20px 30px 0px;
+}
+#big-brands .brands-title h6{
+    color: var(--price-color);
+    font-size: var(--secondary-font-size);
+}
+#big-brands .brands-title a{
+    font-size: var(--primary-font-size);
+    color: var(--price-color);
+}
+#big-brands .brands-title .fa-greater-than{
+    font-size: 10px;
+}
+#big-brands .first-one{
+    background-color: var(--primary-color);
+    margin: 0px 20px 20px;
+   
+}
+#big-brands .first-one{
+    width: 1100px;
+}
+#big-brands .first-one .img1 img{
+   width: 100%;
+}
+#big-brands .first-one p{
+    color:var(--product-name);
+    text-align: center;
+    font-weight: var(--medium-font-weight);
+    margin-top: 5px;
+}
+#big-brands .first-one .img4{
+    margin: 0px 10px;
+}
+#big-brands .first-one .imgbdr{
+    border-right: 1px solid #FDC32F;
+}
+
+/*=========================
+    CATAGORIES
+==========================*/
+#catagories{
+    margin: 30px 0px;
+    
+}
+#catagories .catagories-bg{
+    background: var(--primary-color);
+    
+  
+}
+#catagories .head h6{
+    color: var(--text-color);
+    padding: 10px 10px;
+    text-transform: uppercase;
+}
+#catagories .cata .cata-img{
+    width: 108px;
+    border: 1px solid rgb(246, 240, 240);
+}
+#catagories .cata .cata-img:hover{
+    border: 1px solid #ddd;
+}
+#catagories .cata .cata-img img{
+    width: 100%;
+}
+#catagories .cata .cata-img p{
+    color: var(--product-name);
+    font-size: var(--primary-font-size);
+    font-weight: var(--medium-font-weight);
+
+    text-align: center;
+}
+#catagories .cata .cata-img p:hover{
+    color: var(--text-color);
+}
+/*=========================
+    FLASH DEALS
+==========================*/
+
+#flash .flash-bg{
+    background-color: var(--primary-color);
+}
+#flash .brands-title{
+    padding: 20px 30px;
+}
+#flash .brands-title h6{
+    color: var(--price-color);
+    font-size: var(--secondary-font-size);
+}
+#flash .brands-title a{
+    font-size: var(--primary-font-size);
+    color: var(--price-color);
+}
+#flash .brands-title .fa-greater-than{
+    font-size: 10px;
+}
+#flash .img-area .first{
+    width: 200px;
+    margin: 0px 5px;
+}
+#flash .img-area .first img{
+    width: 100%;
+}
+#flash .img-area .first h6{
+    color: var(--product-name);
+    font-size: var(--primary-font-size);
+    text-align: center;
+    margin-top: 10px;
+}
+#flash .img-area .first h6:hover{
+    color: var(--text-color);
+}
+#flash .img-area .first p{
+    color: var(--price-color);
+    font-weight: var(--medium-font-weight);
+    text-align: center;
+    align-items: center;
+    margin-top: 10px;
+}
+/*=========================
+    ECOVAS
+==========================*/
+#ecovas{
+    margin: 20px 0px;
+}
+
+/*=========================
+    MALL
+==========================*/
+
+#mall .container{
+    background-color: var(--primary-color);
+}
+#mall .brands-title{
+    padding: 20px 30px;
+}
+#mall .brands-title h6{
+    color: var(--price-color);
+    font-size: 20px;
+    font-weight: var(--medium-font-weight);
+    border-right: 1px solid #ddd;
+    padding-right: 10px;
+}
+#mall .brands-title p{
+    color: var(--text-color);
+    font-weight: var(--medium-font-weight);
+}
+#mall .brands-title .img img{
+    width: 20px;
+    height: 20px;
+}
+#mall .brands-title .img{
+    margin: 0px 10px;
+}
+#mall .brands-title a{
+    font-size: var(--primary-font-size);
+    color: var(--price-color);
+}
+#mall .brands-title .fa-greater-than{
+    font-size: 10px;
+    background-color: var(--price-color);
+    padding: 3px;
+    color: var(--primary-color);
+    border-radius: 50%;
+}
+#mall .carousel-indicators [data-bs-target]{
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+}
+#mall .mall-area{
+    border-top: 1px solid #ddd;
+    padding-top: 10px;
+}
+#mall .mall-area .slider{
+    width: 40%;
+ 
+}
+#mall .mall-product{
+    width: 60%;
+}
+#mall .mall-product .product1{
+    width: 160px;
+}
+#mall .mall-product .product1 h4{
+    color: var(--price-color);
+    font-size: var(--secondary-font-size);
+    text-align: center;
+    margin-top: -10px;
+}
+
+/*=========================
+    TREADING
+==========================*/
+#treading{
+    margin: 30px 0px;
+}
+
+#treading .container{
+    background-color: var(--primary-color);
+}
+#treading .brands-title{
+    padding: 20px 30px;
+}
+#treading .brands-title h6{
+    color: var(--text-color);
+    font-size: var(--secondary-font-size);
+}
+#treading .brands-title a{
+    font-size: var(--primary-font-size);
+    color: var(--price-color);
+}
+#treading .brands-title .fa-greater-than{
+    font-size: 10px;
+}
+
+
+#treading .treading-section .first img{
+    width: 100px;
+    height: 100px;
+}
+#treading .treading-section .text{
+    align-items: center;
+    justify-content: center;
+}
+#treading .treading-section .first{
+    margin: 0px 20px;
+}
+#treading .treading-section .first .my-text{
+    margin-right: 10px;
+}
+#treading .treading-section .first .my-text h6{
+    color: var(--product-name);
+}
+#treading .treading-section .first .my-text p{
+    color: var(--text-color);
+    font-size: var(--primary-font-size);
+}
+#treading .treading-section{
+    border-top: 1px solid #ddd;
+    padding: 10px 0px;
+}
+
+
+/*=========================
+    TOP
+==========================*/
+#top .container{
+    background-color: var(--primary-color);
+}
+#top .brands-title{
+    padding: 20px 30px;
+}
+#top .brands-title h6{
+    color: var(--price-color);
+    font-size: var(--secondary-font-size);
+}
+#top .brands-title a{
+    font-size: var(--primary-font-size);
+    color: var(--price-color);
+}
+#top .brands-title .fa-greater-than{
+    font-size: 10px;
+}
+#top .my-area .first{
+    width: 170px;
+    margin: 0px 7px;
+}
+#top .my-area .first img{
+    width: 100%;
+  
+}
+#top .my-area .bg-area p{
+    background-color: var(--text-color);
+    color: var(--primary-color);
+    text-align: center;
+    font-size: var(--primary-font-size);
+}
+#top .first p{
+    font-size: var(--secondary-font-size);
+    color: var(--product-name);
+    font-weight: var(--medium-font-weight);
+    text-align: center;
+}
+
+/*=========================
+    DISCOVER
+==========================*/
+/* #discover{
+    margin: 30px 0px;
+}
+#discover .container{
+    background-color: #fff;
+    
+}
+#discover .head h5{
+    font-weight: var(--primary-font-weight);
+    color: var(--price-color);
+    text-transform: uppercase;
+    border-bottom: 5px solid var(--price-color);
+    padding-bottom: 30px;
+    padding: 0px 20px 20px;
+}
+#discover .head h6{
+    font-weight: 900;
+    color: var(--price-color);
+    font-size: 25px;
+    margin-left: 100px;
+}
+#discover .head{
+    padding: 20px 0px 0px;
+}
+#discover .image-area{
+    border-top: 1px solid #ddd;
+}
+#discover .image-area .first{
+    width: 200px;
+    margin: 0px 10px;
+    position: relative;
+}
+#discover .image-area .first span{
+    font-size: var(--primary-font-size);
+    text-align: center;
+    color: var(--product-name);
+    margin-top: -14px;
+    font-weight: var(--medium-font-weight);
+}
+#discover .image-area .first .last{
+
+    margin: 10px 10px 0px;
+}
+#discover .image-area .first .last .price{
+    color: var(--price-color);
+    font-weight: var(--medium-font-weight);
+    font-size: var(--secondary-font-size);
+}
+#discover .image-area .first .last p{
+    color: var(--text-color);
+    font-size:var(--primary-font-size);
+}
+#discover .image-area .first:hover{
+    border: 1px solid var(--price-color);
+
+}
+#discover .image-area .first:hover .my-testing{
+    height: 20px;
+}
+#discover .my-testing{
+    position: absolute;
+    display: flex;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 0;
+    overflow: hidden;
+    transition: 0.3s;
+    background-color: var(--price-color);
+    color: #262626;
+    bottom: -5px;
+    
+}
+#discover .my-testing a{
+    display: block;
+    color: var(--primary-color);
+    font-size: var(--primary-font-size);
+    margin: 0 auto;
+    font-weight: var(--medium-font-weight);
+
+}
+ */
+
+/*=========================
+    MY-EXTRA
+==========================*/
+#my-extra{
+    margin-top: 30px;
+}
+#my-extra .nav .nav-item{
+    margin: 20px  0px;
+    
+}
+#my-extra .nav{
+    margin-left: -150px;
+}
+#my-extra .nav .nav-item h5,
+#my-extra .nav .nav-item h6{
+    color: var(--price-color);
+}
+.nav-pills .nav-link.active, .nav-pills .show>.nav-link{
+    background-color: var(--primary-color);
+    border-bottom: 4px solid var(--price-color);
+    color: var(--price-color);
+}
+#my-extra .nav .nav-item:last-child{
+    
+    margin-left: 180px;
+}
+#my-extra .nav .nav-item .head{
+    width: 200px;
+}
+#my-extra .head h6{
+    font-weight: 900;
+    color: var(--price-color);
+    font-size: 25px;
+    margin-left: 100px;
+}
+#my-extra .head{
+    padding: 20px 0px 0px;
+}
+
+
+#my-extra .card-heading .card{
+    width: 180px;
+    background-color: #fff;
+    padding: 0;
+}
+#my-extra .card-heading .card .imgBox{
+    position: relative;
+    width: 100%;
+    height: 150px;
+    overflow: hidden;
+}
+#my-extra .card-heading .card .imgBox img{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: 2s;
+    transform-origin: right;
+}
+#my-extra .card-heading .card:hover .imgBox img{
+    transform: scale(1.2);
+}
+#my-extra .card-heading .content{
+    padding: 10px;
+}
+#my-extra .card-heading .content h3{
+    font-size: var(--primary-font-size);
+    font-weight: 500;
+    color: var(--text-color);
+    margin: 5px 0px;
+}
+
+#my-extra .card-heading .content .last p{
+    font-size: var(--primary-font-size);
+    color: var(--price-color);
+    font-weight: bold;
+}
+
+#my-extra .action{
+    position: absolute;
+    top: 10px;
+    right: 10px;
+}
+#my-extra li{
+    position: relative;
+    list-style: none;
+    width: 40px;
+    height: 40px;
+   
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 5px;
+    cursor: pointer;
+    transform: translateX(270px);
+}
+#my-extra .card-heading .card:hover .action li{
+    transform: translateX(0px);
+
+}
+#my-extra .card-heading .card span{
+    position: absolute;
+    right: 50px;
+    top: 50%;
+    transform: translateY(-50%);
+    white-space: nowrap;
+    padding: 5px 6px;
+    background-color: var(--primary-color);
+    color: var(--price-color);
+    font-weight: bold;
+    font-size: 12px;
+    border-radius: 5px;
+    pointer-events: none;
+    opacity: 0;
+    transition: 2s;
+}
+#my-extra .card-heading .card li:hover span{
+    opacity: 1;
+}
+#my-extra .card-heading .card li:hover{
+    background-color: var(--price-color);
+    color: var(--primary-color);
+}
+#my-extra .card-heading .card a{
+    color: var(--price-color);
+}
+
+#my-extra .card-heading .card:hover .my-testing{
+    height: 25px;
+}
+
+
+
+
+
+#my-extra .mycard .card{
+    width: 180px;
+    background-color: #fff;
+    padding: 0;
+}
+#my-extra .mycard .card .imgBox{
+    position: relative;
+    width: 100%;
+    height: 150px;
+    overflow: hidden;
+}
+#my-extra .mycard .card .imgBox img{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: 2s;
+    transform-origin: right;
+}
+#my-extra .mycard .card:hover .imgBox img{
+    transform: scale(1.5);
+}
+#my-extra .mycard .content{
+    padding: 10px;
+}
+#my-extra .mycard .content h3{
+    font-size: var(--primary-font-size);
+    font-weight: 500;
+    color: var(--text-color);
+    margin: 5px 0px;
+}
+
+#my-extra .mycard .content .last p{
+    font-size: var(--primary-font-size);
+    color: var(--price-color);
+    font-weight: bold;
+}
+
+
+#my-extra .mycard .card:hover .action li{
+    transform: translateX(0px);
+
+}
+#my-extra .mycard .card span{
+    position: absolute;
+    right: 50px;
+    top: 50%;
+    transform: translateY(-50%);
+    white-space: nowrap;
+    padding: 5px 6px;
+    background-color: var(--primary-color);
+    color: var(--price-color);
+    font-weight: bold;
+    font-size: 12px;
+    border-radius: 5px;
+    pointer-events: none;
+    opacity: 0;
+    transition: 2s;
+}
+#my-extra .mycard .card li:hover span{
+    opacity: 1;
+}
+#my-extra .mycard .card li:hover{
+    background-color: var(--price-color);
+    color: var(--primary-color);
+}
+#my-extra .mycard .card a{
+    color: var(--price-color);
+}
+
+
+
+#my-extra .card .my-testing{
+    position: absolute;
+    display: flex;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 0;
+    overflow: hidden;
+    transition: 0.3s;
+    background-color: var(--price-color);
+    color: #262626;
+    bottom: 0px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+
+
+#my-extra .card .my-testing a{
+   
+    color: #fff;
+    font-size: var(--primary-font-size);
+    font-weight: var(--medium-font-weight);
+
+}
+#my-extra .mycard .card:hover .my-testing{
+    height: 25px;
+}
+   
+
+
+#my-extra .card:hover{
+    border: 1px solid var(--price-color);
+}
+#my-extra .container{
+    background-color: var(--primary-color);
+    padding-bottom: 20px;
+}
+
+#my-extra .learn-more{
+    display: block;
+    margin: 20px 0px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#my-extra .learn-more .extra-btn{
+    
+    padding: 10px 20px;
+    color: var(--primary-color);
+    background-color: var(--price-color);
+    transition:var(--transition);
+    outline: none;
+}
+#my-extra .learn-more .extra-btn:hover{
+    border: 1px solid var(--price-color);
+    background-color: var(--primary-color);
+    color: var(--price-color);
+    opacity: .8;
+}
+
+/*=========================
+    PRODUCT CATAGORIES
+==========================*/
+#product-catagories{
+    border-top: 5px solid var(--price-color);
+    margin-top: 20px;
+}
+#product-catagories .container{
+    background-color: var(--primary-color);
+    padding: 20px;
+}
+#product-catagories .catagories-head h6{
+    font-size: var(--medium-font-size);
+    color: var(--price-color);
+    margin-top: 10px;
+}
+#product-catagories .all-here .total1 .first .first-head a{
+    color: var(--product-name);
+    font-size:14px;
+    font-weight: var(--medium-font-weight);
+    margin-top: 10px;
+
+}#product-catagories .all-here .total1 .first .link{
+    margin-top: -20px;
+    margin-left: -30px;
+}
+#product-catagories .all-here .total1 .first .link ul li{
+    float: left;
+}
+#product-catagories .all-here .total1 .first{
+    width: 220px;
+  
+}
+#product-catagories .all-here .total1 .first .first-head a:hover,
+#product-catagories .all-here .total1 .first .link a:hover{
+    color: var(--price-color);
+}
+
+#product-catagories .all-here .total1 .first .link a{
+    font-size: var(--primary-font-size);
+    color: var(--text-color);
+    padding: 0px 3px;
+}
+
+/*=========================
+    CUSTOMER
+==========================*/
+
+
+
+#customer .first1{
+    padding: 20px;
+}
+#customer .first1 .head h6{
+    color: var(--product-name);
+    font-size: var(--secondary-font-size);
+}
+
+#customer .first1 .my-link a{
+    font-size: var(--primary-font-size);
+    color: var(--text-color);
+    margin-left: -20px;
+}
+#customer .first1 .my-link a:hover{
+    color: var(--price-color);
+}
+#customer .card-img img{
+    width: 50px;
+    margin:-7px 12px ;
+}
+#customer .card-img .img1{
+    width: 100px;
+    margin-left: -20px;
+}
+#customer .card-img .img3{
+    width: 40px;
+}
+#customer .card-img .img2{
+    margin-left: -10px;
+}
+#customer .first1 .my-link .my-icon{
+    font-size: var(--secondary-font-size);
+    margin-right: 10px;
+}
+
+#customer .first1 .left img{
+    width: 80px;
+    margin-left: 25px;
+}
+#customer .first1 .right img{
+    width: 80px;
+    margin: 5px 0px;
+    margin-left: 20px;
+}
+#customer .last-section{
+    margin-left: 100px;
+}
+
+/*=========================
+    CUSTOMER
+==========================*/
+
+footer .container {
+    border-top: 1px solid var(--text-color);
+    padding: 20px 0px;
+}
+footer .first p{
+    color: var(--text-color);
+    font-size: var(--primary-font-size);
+}
+
+footer .second{
+    margin-left: 50px;
+    color: var(--text-color);
+    font-size: var(--primary-font-size);
+}
+footer .second a{
+    color: var(--text-color);
+    border-right: 1px solid var(--text-color);
+    
+}
+footer .second a span{
+    margin: 0px 5px;
+}

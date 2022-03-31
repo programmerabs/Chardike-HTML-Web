@@ -1,0 +1,349 @@
+
+
+
+/* @media (max-width:576px) {
+  
+    header a{ 
+        margin: 0;
+        font-size: 5px;
+    }
+    header .icon a{
+        font-size: 10px;
+    }
+    header{
+        width: 422px;
+    }
+    header .nav-middle .search input{
+        width: 250px; 
+        height: 20px;
+        margin-left: 10px;
+    }
+    header .nav-middle .search input::placeholder{
+        font-size: 8px;
+
+    }
+    header .search .btn{
+        height: 17px;
+        margin-top: 3px;
+        width: 20px;
+        margin-left: -27px;
+
+    }
+    header .search  .fa-magnifying-glass{
+        margin-top: -2px;
+        margin-left: -4px;
+        display: block;
+        font-size: 10px;
+    }
+
+    header .icon a{
+        margin: 10px 5px 5px;
+    }
+    header .icon p{
+        padding-top: 6px;
+        font-size: 5px;
+    }
+    header .left li a{
+        padding: 0px 5px;
+    }
+    header .right{
+        margin-right: 20px !important;
+    }
+    header .right li .my-border{
+        padding: 0px 5px;
+    }
+    header .nav-middle .logo{
+        width: 70px;
+        margin-top: 30px !important;
+        margin-left: 10px;
+    }
+    header .nav-middle .logo img{
+        height: 20px;
+    }
+   
+    header .nav-middle .cart-icon .fa-cart-shopping{
+        font-size: 11px;
+        margin-top: 3px;
+        margin-left: -40px;
+    }
+    header .nav-middle{
+        margin-top: -50px;
+    }
+    header .nav-middle .search .link-area{
+        margin-left: 0px;
+
+    }
+    header .nav-middle .search .link-area ul li{
+        margin: 0px 20px;
+    }
+  
+    #hero{
+        width: 422px;
+    }
+    #hero {
+        padding: 80px 15px 10px;
+    }
+    #hero .slider .slider-left{
+        width: 250px;
+        margin-left: -20px;
+    }
+    #hero .slider .slider-left img{
+        height: 80px;
+    }
+    #hero .slider .slider-right{
+        width: 120px;
+        float: left;
+        margin-left: 10px;
+    }
+    #hero .slider .slider-right img{
+        width: 180px;
+        height: 37px;
+    }
+    #hero .slider .slider-left .carousel-indicators [data-bs-target]{
+        height: 5px;
+        width: 5px;
+
+    }
+
+    #hero .icon-area img{
+        width: 30px;
+        height: 30px;
+    }
+    #hero .icon-area{
+        margin-left: -20px;
+    }
+    #hero .icon-area .first{
+        float: left;
+        text-align: center;
+        margin: 0px 4px 0px;
+    }
+    #hero .icon-area .first span{
+        font-size:  7px;;
+    }
+    #big-brands .brands-title{
+        padding: 5px 30px 0px;
+    }
+    
+    #big-brands .first-one .img1 img{
+        width: 80%;
+    }
+    #big-brands .brands-title .fa-greater-than{
+        font-size: 8px;
+    }
+    #big-brands .first-one{
+        margin-left: 20px;
+        width: 380px;
+        
+    }
+    #big-brands .first-one .img1 p{
+        font-size: 10px;
+    }
+    #big-brands{
+        width: 422px;
+    }
+    #catagories{
+        width: 420px;
+    }
+
+    #catagories .cata .cata-img p{
+
+        font-size: 8px;
+
+    }
+  
+    #flash{
+        width: 420px;
+    }
+    #flash .img-area .first{
+        width: 60px;
+        margin: 0px 2px;
+    }
+    #flash .img-area .first img{
+        width: 80%;
+    }
+    #flash .img-area .first h6{
+        font-size: 8px;
+    }
+    #flash .img-area .first p{
+        font-size: 10px;
+    }
+    #flash .brands-title ul{
+        margin-right: 40px;
+    }
+
+    #mall{
+        width: 420px;
+    }
+    #mall .brands-title{
+        padding: 10px 10px;
+    }
+    #mall .brands-title h6{
+        padding-right: 5px;
+        font-size: 14px;
+
+    }
+    #mall .brands-title p{
+        font-size: 8px;
+    }
+    #mall .brands-title .img img{
+        width: 15px;
+        height: 15px;
+    }
+    #mall .brands-title .img{
+        margin: 0px 2px;
+    }
+    #mall .brands-title .fa-greater-than{
+        font-size: 8px;
+        padding: 2px;
+
+    }
+    #mall .mall-area .slider{
+        width: 35%;
+     
+    }
+    #mall .mall-product{
+        width: 65%;
+    }
+    #mall .mall-product .product1{
+        width: 70px;
+    }
+    #mall .mall-product .product1 h4{
+        font-size: 9px;
+    }
+    #treading{
+        width: 420px;
+    }
+    #treading .treading-section .first img{
+        width: 100px;
+        height: 40px;
+    }
+    #treading .treading-section .first{
+        margin: 0px 10px;
+    }
+    #treading .treading-section .first .my-text{
+        margin-right: 0px;
+    }
+    #treading .treading-section .first .my-text p{
+        font-size: 10px;
+    }
+    #treading .treading-section .first .my-text h6{
+        font-size: 10px;
+    }
+    #top{
+        width: 420px;
+    }
+
+    #top .my-area .first{
+        width: 100px;
+    }
+    #top .my-area .first img{
+        width: 100px;
+        height: 50px;
+      
+    }
+    #top .my-area .bg-area p{
+        font-size: 8px;
+        
+    }
+    #top .first p{
+        font-size:8px;
+        
+    }
+    #my-extra{
+        width: 420px;
+    }
+
+    #my-extra .card-heading .card{
+        width: 68px;
+        height: 130px;
+    }
+    #my-extra .card-heading .card .imgBox{
+        width: 100%;
+        height: 50px;
+
+    }
+    #my-extra .card-heading .content h3{
+        font-size: 6px;
+        margin: 5px 0px;
+    }
+    #my-extra .card-heading .content .last p{
+        font-size:7px;
+
+    }
+    #my-extra .learn-more{
+        margin: 20px 0px;
+    }
+    #my-extra .learn-more a{
+        
+        padding: 10px;
+
+    
+    }
+} */
+
+
+
+/* 
+  ##Device = Desktops
+  ##Screen = 1281px to higher resolution desktops
+*/
+
+@media (min-width: 1281px) {
+  
+    
+  }
+  
+  /* 
+    ##Device = Laptops, Desktops
+    ##Screen = B/w 1025px to 1280px
+  */
+  
+  @media (min-width: 1025px) and (max-width: 1280px) {
+    
+    /* CSS */
+    
+  }
+  
+  /* 
+    ##Device = Tablets, Ipads (portrait)
+    ##Screen = B/w 768px to 1024px
+  */
+  
+  @media (min-width: 768px) and (max-width: 1024px) {
+    
+    /* CSS */
+    
+  }
+  
+  /* 
+    ##Device = Tablets, Ipads (landscape)
+    ##Screen = B/w 768px to 1024px
+  */
+  
+  @media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
+    
+    /* CSS */
+    
+  }
+  
+  /* 
+    ##Device = Low Resolution Tablets, Mobiles (Landscape)
+    ##Screen = B/w 481px to 767px
+  */
+  
+  @media (min-width: 481px) and (max-width: 767px) {
+    
+    /* CSS */
+    
+  }
+  
+  /* 
+    ##Device = Most of the Smartphones Mobiles (Portrait)
+    ##Screen = B/w 320px to 479px
+  */
+  
+  @media (min-width: 320px) and (max-width: 480px) {
+    
+    /* CSS */
+    
+  }

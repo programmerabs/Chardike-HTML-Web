@@ -1,0 +1,76 @@
+
+
+ :root{
+    --primary-color : #fff;
+    --price-color : #EA4F31;
+    --text-color : #737373;
+    --product-name : #222222;
+    --primary-font : 'Roboto', sans-serif;
+    --primary-font-size : 12px;
+    --secondary-font-size : 15px;
+    --medium-font-size : 20px;
+    --primary-font-weight : 300;
+    --medium-font-weight : 500;
+    --heading-font-weight : 700;
+    --product-weight : 400;
+    --transition : all 0.3s ease-in-out;
+    --input-padding : 8px 13px;
+    --label-margin : 10px 0px;
+    --mx-10 : 0px 10px;
+    
+}
+
+
+#top-header{
+    margin-top: 140px;
+}
+#top-header .head-top h2{
+    color: var(--product-name);
+    font-weight: var(--heading-font-weight);
+    margin-bottom: 30px;
+   
+}
+#top-header .nav-link{
+    width: 225px;
+    color: var(--product-name);
+}
+#top-header .nav{
+    background-color: var(--primary-color);
+}
+#top-header .tab-pane .img-area{
+    width: 210px;
+    background-color: var(--primary-color);
+    padding: 10px 10px 0px;
+    margin: 20px 20px 0px 0px;
+    transition: 0.3s;
+}
+#top-header .tab-pane .img-area h6{
+    color: var(--price-color);
+    font-weight: var(--medium-font-size);
+    font-weight: var(--product-weight);
+}
+#top-header .tab-pane .img-area .img-text img{
+    height: 20px;
+}
+#top-header .tab-pane .img-area .img-text .span-area span{
+    color: var(--price-color);
+    font-size: var(--primary-font-size);
+    border: 1px solid var(--price-color);
+    padding: 2px 5px;
+}
+#top-header .tab-pane .img-area .img-text .sold-details{
+    margin-top: 10px;
+}
+#top-header .tab-pane .img-area .img-text .sold-details p{
+    font-size: var(--primary-font-size);
+    color: var(--text-color);
+    opacity: 0.7;
+    margin-top: 5px;
+}
+#top-header .tab-pane .img-area .img-text .sold-details .top-icon{
+    font-size: 10px;
+    color: var(--price-color);
+}
+#top-header .tab-pane .img-area:hover{
+    transform: scale(0.9);
+}

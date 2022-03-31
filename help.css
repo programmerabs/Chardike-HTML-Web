@@ -1,0 +1,138 @@
+
+ :root{
+    --primary-color : #fff;
+    --price-color : #EA4F31;
+    --text-color : #737373;
+    --product-name : #222222;
+    --primary-font : 'Roboto', sans-serif;
+    --primary-font-size : 12px;
+    --secondary-font-size : 15px;
+    --medium-font-size : 20px;
+    --primary-font-weight : 300;
+    --medium-font-weight : 500;
+    --heading-font-weight : 700;
+    --product-weight : 400;
+    --transition : all 0.3s ease-in-out;
+    --input-padding : 8px 13px;
+    --label-margin : 10px 0px;
+    --mx-10 : 0px 10px;
+    
+}
+
+body{
+    background-color: var(--primary-color);
+
+}
+#help-bar{
+    background-color: var(--primary-color);
+    padding: 20px 0px;
+}
+#help-bar a{
+    border-right:1px solid var(--price-color);
+}
+#help-bar h3{
+    color: var(--price-color);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 10px;
+    font-size: var(--medium-font-size);
+}
+
+
+#search{
+    background-color: var(--price-color);
+    height: 30vh;
+    margin-top: 80px;
+}
+#search h1{
+    color:var(--primary-color);
+}
+#search .text{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 40px;
+    flex-direction: column;
+}
+#search .text .input-area{
+    margin-top: 30px;
+    width: 80%;
+    
+}
+#search .text .input-area input{
+    padding: 20px 10px;
+    border: none;
+    outline: none;
+
+}
+#search .text .input-area .search{
+ 
+    background-color: var(--price-color);
+    
+    margin-left: -82px;
+    margin-top: 2px;
+    margin-bottom: 2px;
+    padding: 5px 30px; 
+}
+#search .text .input-area .search .fa-magnifying-glass{
+    margin-top: 15px;
+    color: var(--primary-color); 
+    font-size: 19px;  
+}
+#question .text-area{
+
+    margin-top: 100px;
+    width: 600px;
+}
+#question .text-area h2{
+    color: var(--product-name);
+}
+.accordion{
+    width: 800px;
+    color: var(--text-color);
+}
+
+#contact{
+    background-color: #ddd;
+    padding: 40px 0px;
+    color:var(--product-name);
+    margin:40px 0px;
+
+}
+#contact .contact-text{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+#contact .contact-text span{
+    color: var(--product-name);
+
+}
+#contact .contact-text .twoicon{
+    margin-right: 20px;
+    margin-top: 10px;
+    color: var(--price-color);
+    border: 1px solid var(--text-color);
+    border-radius: 50%;
+    padding: 5px;
+}
+#contact .contact-text .mail{
+    background-color: var(--primary-color);
+    padding: 10px;
+}
+#contact .contact-text .number{
+    margin-left: 20px;
+}
+
+#helpfooter .right img{
+    width: 30px;
+    height: 30px;
+    margin: 0px 10px;
+}
+
+#helpfooter .right .nav .nav-link{
+    border-right: 1px solid var(--text-color);
+    padding: 0px 5px;
+}

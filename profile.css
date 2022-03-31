@@ -1,0 +1,401 @@
+:root{
+    --primary-color : #fff;
+    --price-color : #EA4F31;
+    --text-color : #737373;
+    --product-name : #222222;
+    --primary-font : 'Roboto', sans-serif;
+    --primary-font-size : 12px;
+    --secondary-font-size : 15px;
+    --medium-font-size : 20px;
+    --primary-font-weight : 300;
+    --medium-font-weight : 500;
+    --heading-font-weight : 700;
+    --product-weight : 400;
+    --transition : all 0.3s ease-in-out;
+    --input-padding : 8px 13px;
+    --label-margin : 10px 0px;
+    --mx-10 : 0px 10px;
+    
+}
+
+
+#profile{
+    margin-top: 125px;
+}
+/* #profile .profile-left{
+  
+    height: 80vh;
+    margin-left: -10px;
+    margin-top: 50px;
+}
+#profile  #profile-right{
+    background-color: var(--primary-color);
+    height: 80vh;
+}
+#profile .profile-left .left-head img{
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+}
+#profile .profile-left .left-head .name-area{
+    margin-left: 20px;
+}
+#profile .profile-left .left-head .name-area p{
+    color: var(--product-name);
+    font-weight: var(--medium-font-weight);
+}
+#profile .profile-left .left-head .name-area a{
+    color: var(--text-color);
+    font-size: var(--secondary-font-size);
+    margin-top: -14px;
+    display: block;
+}
+#profile  #profile-right .profile-id{
+    padding: 30px 30px;
+   
+}
+#profile  #profile-right .profile-id hr{
+    border: 1px solid #ddd;
+}
+#profile  #profile-right .profile-id .profile-head-text{
+    color: var(--product-name);
+    font-weight: var(--medium-font-weight);
+}
+#profile  #profile-right .profile-id .profile-head-text p{
+    color: var(--text-color);
+}
+#profile  #profile-right .profile-id .profile-form label{
+    color: var(--text-color);
+    margin-right: 10px;
+}
+#profile  #profile-right .profile-id .profile-form p{
+    color: var(--text-color);
+}
+#profile  #profile-right .profile-id .profile-form .input{
+    width: 500px;
+    padding: 10px 0px;
+    
+}
+#profile  #profile-right .profile-id .profile-form  .second{
+    margin-left: 29px;
+}
+#profile  #profile-right .profile-id .profile-form .file{
+    margin-top: 20px;
+}
+#profile  #profile-right .profile-id .profile-form .file input{
+    margin-left: 34px;
+}
+#profile #profile-right .profile-id .profile-form .gender{
+    margin-top: 30px;
+}
+#profile #profile-right .profile-id .profile-form .gender span{
+    color: var(--product-name);
+    font-size: var(--primary-font-size);
+    margin: -2px 5px 0px;
+}
+#profile  #profile-right .profile-id .profile-form .gender label{
+    margin-top: -5px;
+}
+#profile  #profile-right .profile-id .profile-form .gender  input{
+    margin-left: 20px;
+}
+#profile  #profile-right .profile-id .profile-form .form-select{
+    width: 100px;
+}
+#profile #profile-right .profile-id .profile-form select{
+    margin: 0px 10px;
+}
+#profile  #profile-right .profile-id .profile-form .btn{
+    color: var(--primary-color);
+    background-color: var(--price-color);
+    padding: 5px 20px;
+    margin-left: 100px;
+    margin-top: 40px;
+}
+#profile  #profile-right .right-img-area{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 40px;
+}
+#profile  #profile-right .right-img-area img{
+    width: 100px;
+    border-radius: 50%;
+    margin-left: -30px;
+}
+#profile  #profile-right .right-img-area input{
+    margin-left: 162px;
+    margin-top: 10px;
+}
+#profile #profile-right .right-img-area .text{
+    margin-top: 10px;
+}
+#profile  #profile-right .right-img-area p{
+    font-size: var(--primary-font-size);
+    line-height: 1px;
+}
+#profile  #profile-right .file a{
+    text-decoration: underline;
+    margin-left: 30px;
+    margin-top: 10px;
+}
+
+
+#profile .profile-left .account  img{
+    width: 20px;
+}
+#profile .profile-left .account .account-span{
+    color: var(--product-name);
+    font-size: var(--secondary-font-size);
+    font-weight: var(--medium-font-weight);
+}
+#profile .profile-left .account a span:hover{
+    color: var(--price-color);
+}
+#profile .profile-left .account .span{
+    font-size: 14px;
+
+    margin-left: 30px;
+    color: var(--text-color);
+} */
+
+
+
+#profile .nav-pills .nav-link.active, .nav-pills .show>.nav-link{
+    background-color: transparent;
+    border: none;
+    font-size:var(--secondary-font-size);
+    float: left;
+}
+ 
+#profile .nav-link .head-logo img{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+#profile .nav-link .head-logo .head-logo-text{
+    margin-left: 15px;
+    line-height: 1px;
+    margin-top: 10px;
+}
+#profile .nav-link .head-logo .head-logo-text span{
+
+    font-size: var(--primary-font-size);
+}
+#profile .nav-link .head-logo .head-logo-text p{
+    color: var(--product-name);
+}
+#profile hr{
+    color: var(--text-color);
+}
+#profile .my-account img{
+    width: 20px;
+    height: 20px;
+}
+#profile .nav-link .inaccount{
+    font-size: var(--primary-font-size);
+    line-height: 8px;
+    display: flex;
+    margin-left: 60px;
+    width: 100px;
+}
+#profile .purse img{
+    width: 20px;
+    height: 20px;
+}
+#profile .notification img{
+    width: 20px;
+    height: 20px;
+
+}
+#profile span{
+    font-size: 14px;
+}
+
+#profile .head-pane{
+    background-color: var(--primary-color);
+    width: 900vh;
+    height: 60vh;
+}
+#profile .tab-pane .my-profile-text{
+    padding: 40px;
+}
+#profile .tab-pane .my-profile-text .my-profile-head{
+    color: var(--product-name);
+}
+#profile .tab-pane label{
+    color: var(--text-color);
+    margin-right: 10px;
+    font-size: 14px;
+}
+#profile .tab-pane input::placeholder{
+    font-size:var(--primary-font-size);
+}
+#profile .tab-pane .username input{
+    width: 500px;
+    
+}
+#profile .tab-pane .extra-user{
+    margin-left: 30px;
+}
+#profile .tab-pane span{
+    color: var(--text-color);
+}
+
+#profile .col-md-8 .goarea{
+    
+    margin-left: 30px;
+}
+#profile .col-md-8 a{
+    text-decoration: underline;
+}
+#profile .radio input{
+    margin: 0px 10px;
+}
+#profile select{
+    width: 100px;
+    margin: 0px 10px;
+    color: var(--text-color);
+}
+#profile .btn-area .btn{
+    background-color: var(--price-color);
+    color: var(--primary-color);
+    text-decoration: none;
+    padding: 5px 20px;
+    margin: 20px 0px 0px 80px;
+}
+#profile .profile-right img{
+    width: 100px;
+    border-radius: 50%;
+    margin: 0 auto;
+    display: block;
+    margin-top: 20px;
+}
+#profile .profile-right input{
+   margin-left: 80px;
+
+   width: 150px;
+}
+#profile .profile-right .span-area-right{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+#profile .banks-corporate{
+    padding: 30px;
+}
+#profile .banks-corporate .corporate-top h5{
+    color: var(--product-name);
+}
+
+#profile .tab-pane .add-area{
+    background-color: var(--price-color);
+    color:var(--primary-color);
+}
+#profile .modal-dialog .submit{
+    background-color: var(--price-color);
+    color: var(--primary-color);
+    padding: 5px 20px;
+    border: none;
+}
+#profile .tab-pane .middle-text{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: var(--product-name);
+    margin-top: 30px;
+    font-weight: var(--medium-font-weight);
+}
+#profile .tab-pane .corporate-top{
+    border-bottom: 1px solid var(--text-color);
+    padding-bottom: 20px;
+}
+
+#profile .tab-pane .address{
+    padding: 30px;
+}
+#profile .tab-pane .address h5{
+    color: var(--product-name);
+}
+#profile .tab-pane .address .btn,#profile .tab-pane .address .btn span{
+    color: var(--primary-color);
+    background-color: var(--price-color);
+}
+#profile .middle-address{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 150px;
+    color:var(--text-color);
+}
+#profile .tab-pane .address-head{
+    color: var(--product-name);
+}
+#profile .tab-pane .modal-body .post{
+    width: 92%;
+    margin-top: 10px;
+}
+#profile .tab-pane .modal-body .street{
+    width: 62%;
+    margin-top: 10px;
+}
+#profile .tab-pane .modal-body .optional{
+    width: 32%;
+    margin-top: 10px;
+}
+
+#profile .tab-pane .change-password{
+    padding: 30px;
+}
+
+#profile .tab-pane .change-password .change-head{
+    color: var(--product-name);
+    font-weight: var(--medium-font-weight);
+    border-bottom:1px solid #ddd;
+}
+#profile .tab-pane .change-password .change-input{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 50px;
+}
+#profile .tab-pane .change-password .change-input input{
+    width: 500px;
+}
+#profile .tab-pane .change-password .change-input .verification input{
+    margin-left: 20px;
+}
+#profile .tab-pane .change-password .btn{
+    background-color: var(--price-color);
+    color: var(--primary-color);
+    padding: 10px 30px;
+    margin-top: 20px;
+}
+#profile .purse-pane{
+    background-color: var(--primary-color);
+    height: 70vh;
+    width: 90vh;
+}
+#profile .purse-pane .nav-pills .nav-link.active, .nav-pills .show>.nav-link{
+    border-bottom: 2px solid var(--price-color);
+    
+}
+
+#profile .purse-pane .nav-pills .nav-item button{
+    background-color: var(--primary-color);
+    width: 135px;
+
+}
+
+#profile .no-order-text{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 150px;
+    flex-direction: column;
+    color: var(--product-name);
+}
